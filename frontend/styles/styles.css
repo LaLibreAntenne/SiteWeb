@@ -1,0 +1,51 @@
+
+/* Import des polices d'écritures */
+
+body {
+    margin: 0 auto;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+}
+
+section.top-page {
+    background: url('../assets/La\ Libre\ Antenne.png');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* Haut de page */
+.landing-page {
+    padding: 20px 50px;
+}
+
+.scroll-btn {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/* Menu de navigation */
+nav.top-navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 50px;
+}
+
+nav.top-navigation li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
