@@ -3,6 +3,11 @@
 
 body {
     margin: 0 auto;
+    background-color: rgba(21, 64, 206, 0.315);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* En-tête */
@@ -48,4 +53,23 @@ nav.top-navigation li a {
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
+}
+
+/* Information sur le serveur */
+.server-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.server-info-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.server-info-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
 }
